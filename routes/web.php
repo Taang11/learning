@@ -22,4 +22,7 @@ Route::get('/', function () {
 Route::get('home', function () {
     return view('home.index');
 });
+    Route::get('/belajar', function () {
+    return view('belajar');
+});
 
